@@ -1,4 +1,4 @@
-package fundamentos.basico.variaveis;
+package fundamentos.variaveis;
 
 import java.util.Scanner;
 

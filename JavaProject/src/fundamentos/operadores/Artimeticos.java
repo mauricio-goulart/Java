@@ -12,7 +12,7 @@ public class Artimeticos{
 
         double p = Math.pow(a, b);
 
-        System.out.print(p);
+        System.out.print(p + prod);
         
     }
     
