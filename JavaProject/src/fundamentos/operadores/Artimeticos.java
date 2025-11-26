@@ -1,4 +1,4 @@
-package fundamentos.basico.operadores;
+package fundamentos.operadores;
 
 public class Artimeticos{
 
@@ -10,8 +10,10 @@ public class Artimeticos{
 
         int prod = (a * b) / 2;
 
+        double p = Math.pow(a, b);
+
+        System.out.print(p);
         
     }
-
-
+    
 }
