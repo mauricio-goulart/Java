@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class While {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main (String[] args){
 
         Scanner sc = new Scanner(System.in);
@@ -29,6 +30,8 @@ public class While {
 
         names.forEach(System.out::println);
 
+        sc.close();
+        
     }
     
 }

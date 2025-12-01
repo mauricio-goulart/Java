@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class doWhile {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -27,5 +28,7 @@ public class doWhile {
 
         System.out.println("\n--- Lista de nomes ---");
         names.forEach(System.out::println);
+
+        sc.close();
     }
 }
